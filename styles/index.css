@@ -118,7 +118,9 @@ img{
         width: 20%;
     }
 }
-
+.nav-link:hover{
+    color: rgb(252, 168, 14) ;
+}
 section {
     display: flex;
     flex-direction: row;
@@ -224,11 +226,14 @@ section {
 .special{
     color: rgb(252, 168, 14);
 }
+.special:hover{
+    text-decoration: underline;
+}
 button{
     border: 1px solid transparent;
     border-radius: 20px;
     height: 50px;
-    background-color:  rgb(209, 138, 5);
+    background-color: rgb(252, 168, 14);
     color: white;
     font-size: 1.2rem;
 }
@@ -266,3 +271,12 @@ button{
         width: 35%;
     }
 }
+button:focus{
+    outline: 0;
+    border: none;
+}
+button:hover {
+    background-color:  rgb(209, 138, 5);
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
