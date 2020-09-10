@@ -223,19 +223,11 @@ section {
     font-size: 1.1rem;
 
 }
-.special{
-    color: rgb(252, 168, 14);
-}
-.special:hover{
-    text-decoration: underline;
-}
 button{
     border: 1px solid transparent;
     border-radius: 20px;
     height: 50px;
     background-color: rgb(252, 168, 14);
-    color: white;
-    font-size: 1.2rem;
 }
 /* extra small devices */
 @media only screen and (max-width: 575.98px) {
@@ -271,6 +263,25 @@ button{
         width: 35%;
     }
 }
+#sign-button:link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;  }
+  #sign-button:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;    }
+    #sign-button:active{
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+  
+    }
+    #sign-button:visited{
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
 button:focus{
     outline: 0;
     border: none;
@@ -280,3 +291,19 @@ button:hover {
     box-shadow: 0 5px black;
     transform: translateY(4px);
   }
+  #sign:link{
+    color: rgb(252, 168, 14);
+  }
+  #sign:hover{
+      text-decoration: underline;
+    }
+    #sign:active{
+      color: rgb(252, 168, 14);
+      text-decoration: underline;
+  
+    }
+    #sign:visited{
+      color: rgb(252, 168, 14);
+      text-decoration: underline;
+  
+    }   
