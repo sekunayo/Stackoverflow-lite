@@ -310,3 +310,19 @@ button:hover {
 .special{
     color:rgb(252, 168, 14);
 }
+.sign-about:link{
+    color: white;
+    text-decoration: none;
+  }
+  .sign-about:hover{
+    color: white;
+    text-decoration: none;
+    }
+    .sign-about:active{
+        color: white;
+        text-decoration: none;
+    }
+    .sign-about:visited{
+        color: white;
+        text-decoration: none;
+    }   
