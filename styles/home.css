@@ -321,21 +321,21 @@ button:hover {
     transform: translateY(4px);
 }
 
-#sign:link {
+.sign:link {
     color: rgb(252, 168, 14);
 }
 
-#sign:hover {
+.sign:hover {
     text-decoration: underline;
 }
 
-#sign:active {
+.sign:active {
     color: rgb(252, 168, 14);
     text-decoration: underline;
 
 }
 
-#sign:visited {
+.sign:visited {
     color: rgb(252, 168, 14);
     text-decoration: underline;
 
