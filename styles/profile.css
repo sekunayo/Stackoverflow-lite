@@ -70,15 +70,14 @@ img{
         width: 20%;
     }
 }
-.nav-link:hover{
-    color: rgb(252, 168, 14) ;
-}
 
 .sign:link {
     color: rgb(252, 168, 14);
+    text-decoration: underline;
 }
 
 .sign:hover {
+    color: rgb(252, 168, 14);
     text-decoration: underline;
 }
 
