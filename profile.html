@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
-    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/profile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
 
 </head>
@@ -16,28 +15,101 @@
 <body>
     <header>
         <div id="logo-section"><img src="images/stack-overflow-logo_2-1.png"></div>
-        <div id="search"><input type="search"></div>
         <div id="logo-section-2">
-            <span class=nav-link><a>Q & A</a></span>
-            <span class="nav-link"><a>Help</a></span>
-            <span class="nav-link special"><a href="login.html" id="sign">Sign in</a></span>
+            <span class=nav-link><a href="home.html" class="sign">Home</a></span>
+            <span class="nav-link"><a>Explore</a></span>
+            <span class="nav-link"><i class="fas fa-user-circle" id="open"></i></span>
+            <div class="content-container" id="container">
+                <div class="content" id="content">
+                    <p ><i class="fas fa-user-circle" id="closer"></i></p>
+                    <div class="profile-div">
+                    <span class="profile-link">Username</span>
+                    <span class="profile-link">email@gmail.com</span>
+                </div>
+                    <p class="profile-icon" ><i class="far fa-question-circle" ></i><a class="profile-sign">Questions asked</a></p>
+                    <p class="profile-icon" ><i class="fas fa-comment-medical"></i><a class="profile-sign">Questions answered</a></p>
+                    <p class="profile-icon" ><i class="fas fa-medal"></i><a class="profile-sign"> Top Questions </a></p>
+                    <p class="profile-icon" ><i class="fas fa-user"></i><a class="profile-sign">Edit Profile</a></p>
+                    <p class="profile-icon" ><i class="fas fa-bell"></i><a class="profile-sign">Notifications</a></p>
+                    <p ><a class="profile-special">Sign Out</a></p>
+                </div>
+            </div>
+        </div>
         </div>
     </header>
     <section>
-        <div id="profile-section">
-            <div class="upper-user">
-            <i class="fas fa-user-circle"></i>
+        <div id="first-section">
+            <p class="question-paragraph">What would you love to know ?</p>
+            <form action="" method="POST">
+                <input type="search" name="ask" value="Ask anything you would love to know">
+                <p id="info">Ask a question and get answers from around the world</p>
+            </form>
         </div>
-        <div class="lower-user">
-            <p class="profile-link"><a class="profile-sign">Profile</a></p>
-            <p class="profile-link"><a class="profile-sign">Edit Profile</a></p>
-            <p class="profile-link"><a class="profile-sign">Thread</a></p>
-            <p class="profile-link"><a class="profile-sign">Notifications</a></p>
-            <p class="profile-link"><a class="profile-sign">Sign Out</a></p>
-        </div>
-        </div>
-        <div id="main-section">b</div>
     </section>
+    <section id="general-section">
+        <section id="small-section">
+            <div>
+                <p><a class="trend-special">Trending Topics</a></p>
+                <p><a class="trend">Javascript</a></p>
+                <p><a class="trend">CSS</a></p>
+                <p><a class="trend">Python</a></p>
+                <p><a class="trend">C++</a></p>
+                <p><a class="explore-trend">Explore More</a></p>
+            </div>
+        </section>
+        <section id="main-section">
+
+            <section class="second-section">
+                <div class="section-2">
+                    <p class="question-paragraph">Ask a Question</p>
+                    <p class="heading">Title</p>
+                    <textarea id="textbox-2" value="Your Questions"></textarea>
+                    <p class="heading">Body</p>
+                    <textarea id="textbox-1" value="Your Questions"></textarea>
+                    <div class="questions-mini-box">
+                        <button class="textbox-button button-spacing">Post</button>
+                        <button class="textbox-button button-spacing">Delete</button>
+                        <!-- <div class="button-spacing align"><i class="fas fa-comments"></i><a class="trend space">Comments</a></div> -->
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="second-section">
+                <div class="section-2">
+                    <p class="question-paragraph">Answers</p>
+                    <textarea id="textbox-1" value="Your Questions"></textarea>
+                </div>
+            </section> -->
+        </section>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-1" id="footer-1">
+                <p class=" footer-paragraph">Company Address</p>
+                <p class="footer-paragraph-1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed dictum nisi maximus eros laoreet hendrerit.
+                    Proin laoreet vestibulum magna a ullamcorper.
+                    Donec quam metus, interdum ac tellus ut, convallis mollis tellus.
+                    Maecenas gravida a sapien pulvinar pharetra.
+                    Sed nec congue nisi, ac ornare ex.</p>
+            </div>
+            <div class="footer-1" id="footer-2">
+                <p class=" footer-paragraph">Contact us</p>
+                <p class="contact-paragraph">+234 06 77 80 80</p>
+                <p class="contact-paragraph">Delshek@gmail.com</p>
+
+            </div>
+            <div id="footer-3">
+                <div class="footer-icons">
+                    <i class="fab fa-facebook" id="footer-icon-1"></i>
+                    <i class="fab fa-twitter" id="footer-icon-2"></i>
+                    <i class="fab fa-instagram-square" id="footer-icon-3"></i>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="scripts/profile.js"></script>
 </body>
 
 </html>
