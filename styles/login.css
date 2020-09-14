@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -9,176 +9,165 @@ body{
     align-items: center;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
-    color: white;    
+    color: white;
 }
+
 /* extra small devices */
 @media only screen and (max-width: 575.98px) {
-    section{
+    section {
         width: 70%;
-        }
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
-    section{
+    section {
         width: 70%;
-        }
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-    section{
+    section {
         width: 70%;
-        }
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    section{
+    section {
         width: 70%;
-        }
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    section{
+    section {
         width: 30%;
-        }
+    }
 }
-input{
+
+input {
     color: white;
     background-color: transparent;
     border: none;
-   
+
 }
 
-input:focus{
+input:focus {
     outline: 0;
     border: none;
 }
-#sign-up{
+
+#sign-up {
     font-size: 3rem;
     border: none;
     border-bottom: 7px solid rgb(252, 168, 14);
     margin-bottom: 30px;
     padding-bottom: 15px;
- 
+
 
 }
+
 /* extra small devices */
 @media only screen and (max-width: 575.98px) {
-    #sign-up{
+    #sign-up {
         width: 75%;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
-    #sign-up{
+    #sign-up {
         width: 40%;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-    #sign-up{
+    #sign-up {
         width: 35%;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    #sign-up{
+    #sign-up {
         width: 25%;
     }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #sign-up{
+    #sign-up {
         width: 45%;
-        }
+    }
 }
-button{
+
+button {
     width: 100%;
     display: block;
     background-color: rgb(243, 159, 4);
     border: 1px solid transparent;
     height: 45px;
 }
+
 button:hover {
-    background-color:  rgb(252, 168, 14);
+    background-color: rgb(252, 168, 14);
     box-shadow: 0 5px black;
     transform: translateY(4px);
-  }
+}
 
-#sign-button:link{
+button:focus {
+    border: none;
+    outline: 0;
+
+}
+
+#sign-button {
     color: white;
     text-decoration: none;
-    font-size: 1.3rem;  }
-  #sign-button:hover{
-    color: white;
-    text-decoration: none;
-    font-size: 1.3rem;    }
-    #sign-button:active{
-        color: white;
-        text-decoration: none;
-        font-size: 1.3rem;
-  
-    }
-    #sign-button:visited{
-        color: white;
-        text-decoration: none;
-        font-size: 1.3rem;
-    }
+    font-size: 1.3rem;
+}
 
-form{
+form {
     margin-top: 20px;
     padding-top: 20px;
 
 }
 
-.login-section{
+.login-section {
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid white;
     width: 100%;
     margin-bottom: 20px;
 }
-i{
-  color:  rgb(243, 159, 4);
-  text-align: center;
-  padding-right: 10px;
-  padding-left: 5px;
-  font-size: 1rem ;
+
+i {
+    color: rgb(243, 159, 4);
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 5px;
+    font-size: 1rem;
 
 }
 
-p{
-    font-size: 1.2rem ;
+p {
+    font-size: 1.2rem;
 
 }
-#sign:link{
+
+#sign {
     color: rgb(252, 168, 14);
-  }
-  #sign:hover{
-      text-decoration: underline;
-    }
-    #sign:active{
-      color: rgb(252, 168, 14);
-      text-decoration: underline;
-  
-    }
-    #sign:visited{
-      color: rgb(252, 168, 14);
-      text-decoration: underline;
-  
-    }
-input::placeholder{
- color: white;
-font-size: 1.1rem;
-margin-bottom: 5px;
-    }
+    text-decoration: underline;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}

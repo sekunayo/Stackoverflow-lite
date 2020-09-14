@@ -17,21 +17,24 @@
         <div id="logo-section"><img src="images/stack-overflow-logo_2-1.png"></div>
         <div id="logo-section-2">
             <span class="nav-link"><a href="home.html" class="sign">Home</a></span>
-            <span class="nav-link"><a >Explore</a></span>
+            <span class="nav-link sensitive"><a>Explore</a></span>
             <span class="nav-link"><i class="fas fa-user-circle" id="open"></i></span>
             <div class="content-container" id="container">
                 <div class="content" id="content">
-                    <p ><i class="fas fa-user-circle" id="closer"></i></p>
                     <div class="profile-div">
-                    <span class="profile-link">Username</span>
-                    <span class="profile-link">email@gmail.com</span>
-                </div>
-                    <p class="profile-icon" ><i class="far fa-question-circle" ></i><a class="profile-sign">Questions asked</a></p>
-                    <p class="profile-icon" ><i class="fas fa-comment-medical"></i><a class="profile-sign">Questions answered</a></p>
-                    <p class="profile-icon" ><i class="fas fa-medal"></i><a class="profile-sign"> Top Questions </a></p>
-                    <p class="profile-icon" ><i class="fas fa-user"></i><a class="profile-sign">Edit Profile</a></p>
-                    <p class="profile-icon" ><i class="fas fa-bell"></i><a class="profile-sign">Notifications</a></p>
-                    <p ><a class="profile-special">Sign Out</a></p>
+                        <p><i class="fas fa-user-circle" id="closer"></i></p>
+                        <span class="profile-link">Username</span>
+                        <span class="profile-link">email@gmail.com</span>
+                    </div>
+                    <p class="profile-icon"><i class="far fa-question-circle" id="distinct"></i><a href="total.html"
+                            class="profile-sign">Questions asked</a></p>
+                    <p class="profile-icon"><i class="fas fa-comment-medical"></i><a href="total.html"
+                            class="profile-sign">Questions answered</a></p>
+                    <p class="profile-icon"><i class="fas fa-medal"></i><a href="top.html" class="profile-sign"> Top
+                            Questions </a></p>
+                    <p class="profile-icon"><i class="fas fa-user"></i><a class="profile-sign">Edit Profile</a></p>
+                    <p class="profile-icon"><i class="fas fa-bell"></i><a class="profile-sign">Notifications</a></p>
+                    <p><a class="profile-special">Sign Out</a></p>
                 </div>
             </div>
         </div>
@@ -39,8 +42,8 @@
     </header>
     <section>
         <div id="first-section">
-            <p class="question-paragraph">What would you love to know ?</p>
-            <form action="" method="POST">
+            <p class="question-paragraph sensitive">What would you love to know ?</p>
+            <form action="" method="POST" id="effect">
                 <input type="search" name="ask" value="Ask anything you would love to know">
                 <p id="info">Ask a question and get answers from around the world</p>
             </form>
@@ -59,9 +62,9 @@
         </section>
         <section id="main-section">
 
-            <section class="second-section">
+            <section class="second-section" id="second-section">
                 <div class="section-2">
-                    <p class="question-paragraph">Ask a Question</p>
+                    <p class="question-paragraph ">Ask a Question</p>
                     <p class="heading">Title</p>
                     <textarea id="textbox-2" value="Your Questions"></textarea>
                     <p class="heading">Body</p>
@@ -69,16 +72,9 @@
                     <div class="questions-mini-box">
                         <button class="textbox-button button-spacing">Post</button>
                         <button class="textbox-button button-spacing">Delete</button>
-                        <!-- <div class="button-spacing align"><i class="fas fa-comments"></i><a class="trend space">Comments</a></div> -->
                     </div>
                 </div>
             </section>
-            <!-- <section class="second-section">
-                <div class="section-2">
-                    <p class="question-paragraph">Answers</p>
-                    <textarea id="textbox-1" value="Your Questions"></textarea>
-                </div>
-            </section> -->
         </section>
     </section>
     <footer>
