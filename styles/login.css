@@ -134,17 +134,13 @@ button:hover {
         text-decoration: none;
         font-size: 1.3rem;
     }
-input[value]{
-    font-size: 1.1rem;
-}
+
 form{
     margin-top: 20px;
     padding-top: 20px;
 
 }
-input[type ="date"]{
-    font-size: 1.3rem;
-}
+
 .login-section{
     display: flex;
     flex-direction: row;
@@ -180,4 +176,9 @@ p{
       color: rgb(252, 168, 14);
       text-decoration: underline;
   
+    }
+input::placeholder{
+ color: white;
+font-size: 1.1rem;
+margin-bottom: 5px;
     }
