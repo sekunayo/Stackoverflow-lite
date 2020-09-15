@@ -1,3 +1,5 @@
+/* body styling */
+
 body {
     margin: 0;
     padding: 0;
@@ -8,6 +10,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* sign-in form styling  */
 
 section {
     display: flex;
@@ -68,8 +72,6 @@ input:focus {
     border-bottom: 7px solid rgb(252, 168, 14);
     margin-bottom: 30px;
     padding-bottom: 15px;
-
-
 }
 
 /* extra small devices */
@@ -153,7 +155,6 @@ i {
     padding-right: 10px;
     padding-left: 5px;
     font-size: 1rem;
-
 }
 
 p {
@@ -169,5 +170,4 @@ p {
 input::placeholder {
     color: white;
     font-size: 1.1rem;
-    margin-bottom: 5px;
 }

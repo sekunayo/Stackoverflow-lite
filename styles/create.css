@@ -124,26 +124,12 @@ button:hover {
     transform: translateY(4px);
 }
 
-#sign-button:link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.3rem;
+button:focus {
+    border: none;
+    outline: 0;
 }
 
-#sign-button:hover {
-    color: white;
-    text-decoration: none;
-    font-size: 1.3rem;
-}
-
-#sign-button:active {
-    color: white;
-    text-decoration: none;
-    font-size: 1.3rem;
-
-}
-
-#sign-button:visited {
+#sign-button {
     color: white;
     text-decoration: none;
     font-size: 1.3rem;
@@ -169,22 +155,7 @@ p {
 
 }
 
-#sign:link {
-    color: rgb(252, 168, 14);
-}
-
-#sign:hover {
-    text-decoration: underline;
-}
-
-#sign:active {
+#sign {
     color: rgb(252, 168, 14);
     text-decoration: underline;
-
-}
-
-#sign:visited {
-    color: rgb(252, 168, 14);
-    text-decoration: underline;
-
 }
